@@ -1,5 +1,6 @@
 from ._wx_Point import *
 from ._wx_App import *
+from ._wx_Frame import *
 
 #Constants
 from ._core import *
