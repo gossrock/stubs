@@ -1,6 +1,20 @@
-from ._wx_Point import *
+
 from ._wx_App import *
+from ._wx_AppConsole import *
+from ._wx_AppTraits import *
+from ._wx_Event import *
+from ._wx_EventFilter import *
+from ._wx_EventLoopBase import *
+from ._wx_EvtHandler import *
 from ._wx_Frame import *
+from ._wx_NonOwnedWindow import *
+from ._wx_Object import *
+from ._wx_Point import *
+from ._wx_Size import *
+from ._wx_TopLevelWindow import *
+from ._wx_VideoMode import *
+from ._wx_Window import *
+from ._wx_WindowBase import *
 
 #Constants
 from ._core import *
