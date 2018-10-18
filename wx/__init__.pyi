@@ -18,6 +18,7 @@ from ._wx_Point import *
 from ._wx_PyApp import *
 from ._wx_Rect import *
 from ._wx_Size import *
+from ._wx_Sizer import *
 from ._wx_TopLevelWindow import *
 from ._wx_Trackable import *
 from ._wx_UpdateUIEvent import *
