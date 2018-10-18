@@ -1,5 +1,6 @@
 from typing import overload, Any, Optional
 from . import siplib
+
 class Object(siplib.wrapper):
     #ClassInfo: ? documentation says its here. experementatios don't see it.
     ClassName: str
@@ -8,7 +9,7 @@ class Object(siplib.wrapper):
     def __init__(self) -> None: ...
     @overload
     def __init__(self, other: Object): ...
-    def Destroy(self) -> None: ...
+    def Destroy(self) -> bool: ...
     #def GetClassInfo(self) -> ClassInfo # in documentation but does not apear to be in emplemenation
     def GetClassName(self) -> str: ... # doc says return type is wx.Char but experiments say str
     def GetRefData(self) -> Optional[Any] : ... # return type in documentation wx.ObjectRefData but cant find through experimenation
