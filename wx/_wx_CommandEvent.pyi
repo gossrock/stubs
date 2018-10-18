@@ -1,0 +1,3 @@
+from ._wx_Event import Event
+
+class CommandEvent(Event): ...
