@@ -1,12 +1,9 @@
 from ._wx_EvtHandler import EvtHandler
 from ._wx_EventFilter import EventFilter
-
 from ._wx_Event import Event
 from ._wx_EventLoopBase import EventLoopBase
 from ._wx_AppTraits import AppTraits
 from ._wx_Object import Object
-from ._wx_EventLoopBase import EventLoopBase
-
 
 class AppConsole(EvtHandler, EventFilter):
     AppDisplayName: str
