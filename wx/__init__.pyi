@@ -11,6 +11,7 @@ from ._wx_EventFilter import *
 from ._wx_EventLoopBase import *
 from ._wx_EvtHandler import *
 from ._wx_Frame import *
+from ._wx_LayoutConstraints import *
 from ._wx_NonOwnedWindow import *
 from ._wx_Object import *
 from ._wx_Point import *
