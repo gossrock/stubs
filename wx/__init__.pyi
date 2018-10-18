@@ -15,6 +15,7 @@ from ._wx_NonOwnedWindow import *
 from ._wx_Object import *
 from ._wx_Point import *
 from ._wx_PyApp import *
+from ._wx_Rect import *
 from ._wx_Size import *
 from ._wx_TopLevelWindow import *
 from ._wx_Trackable import *
