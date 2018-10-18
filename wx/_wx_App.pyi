@@ -1,8 +1,8 @@
 from typing import Optional
+
 from ._wx_PyApp import PyApp
 from ._wx_Point import Point
 from ._wx_Size import Size
-from ._wx_Frame import Frame
 
 class App(PyApp):
     def  __init__(self, redirect: bool = False, filename: Optional[str] = None,
