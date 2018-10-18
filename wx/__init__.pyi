@@ -20,6 +20,7 @@ from ._wx_TopLevelWindow import *
 from ._wx_Trackable import *
 from ._wx_UpdateUIEvent import *
 from ._wx_VideoMode import *
+from ._wx_VisualAttributes import *
 from ._wx_Window import *
 from ._wx_WindowBase import *
 
