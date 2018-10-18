@@ -5,3 +5,4 @@ from ._wx_EventCategory import *
 from ._wx_LayoutDirection import *
 from ._wx_Orientation import *
 from ._wx_StandardID import *
+from ._wx_WindowVariant import *
