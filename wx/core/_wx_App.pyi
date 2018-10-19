@@ -1,6 +1,8 @@
 from typing import Optional
 
-from .._core import PyApp, Point, Size
+from wx._core._wx_PyApp import PyApp
+from wx._core._wx_Point import Point
+from wx._core._wx_Size import Size
 
 class App(PyApp):
     def  __init__(self, redirect: bool = False, filename: Optional[str] = None,

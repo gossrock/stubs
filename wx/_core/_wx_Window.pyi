@@ -1,25 +1,25 @@
 from typing import overload, Any, Tuple, Optional, List
 
-from . import EvtHandler
-from . import ID_ANY
-from . import Point, DefaultPosition
-from . import Size, DefaultSize
-from . import WindowBase
-from . import Orientation, BOTH
-from . import UpdateUIEvent
-from . import AcceleratorTable
-from . import Colour
-from . import BackgroundStyle
-from . import Border
-from . import Caret
-from . import WindowVariant, WINDOW_VARIANT_NORMAL
-from . import VisualAttributes
-from . import Rect
-from . import LayoutConstraints
-from . import Sizer
-from . import Cursor
-from . import DropTarget
-from . import Font
+from ._wx_EvtHandler import EvtHandler
+from ._wx_StandardID import ID_ANY
+from ._wx_Point import Point, DefaultPosition
+from ._wx_Size import Size, DefaultSize
+from ._wx_WindowBase import WindowBase
+from ._wx_Orientation import Orientation, BOTH
+from ._wx_UpdateUIEvent import UpdateUIEvent
+from ._wx_AcceleratorTable import AcceleratorTable
+from ._wx_Colour import Colour
+from ._wx_BackgroundStyle import BackgroundStyle
+from ._wx_Border import Border
+from ._wx_Caret import Caret
+from ._wx_WindowVariant import WindowVariant, WINDOW_VARIANT_NORMAL
+from ._wx_VisualAttributes import VisualAttributes
+from ._wx_Rect import Rect
+from ._wx_LayoutConstraints import LayoutConstraints
+from ._wx_Sizer import Sizer
+from ._wx_Cursor import Cursor
+from ._wx_DropTarget import DropTarget
+from ._wx_Font import Font
 
 PanelNameStr: str
 class Window(WindowBase):

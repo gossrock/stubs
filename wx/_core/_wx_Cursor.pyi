@@ -1,2 +1,2 @@
-from . import GDIObject
+from ._wx_GDIObject import GDIObject
 class Cursor(GDIObject): ...

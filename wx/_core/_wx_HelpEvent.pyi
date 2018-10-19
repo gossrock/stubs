@@ -1,5 +1,5 @@
-from . import CommandEvent
-from . import Origin
+from ._wx_CommandEvent import CommandEvent
+from ._wx_Origin import Origin
 
 class HelpEvent(CommandEvent):
     Origin_Unknown: Origin

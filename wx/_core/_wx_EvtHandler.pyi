@@ -1,10 +1,10 @@
 from typing import Callable, Optional
 
-from . import Object
-from . import Trackable
-from . import EventFilter
-from . import Event
-from ..core import PyEventBinder
+from ._wx_Object import Object
+from ._wx_Trackable import Trackable
+from ._wx_EventFilter import EventFilter
+from ._wx_Event import Event
+from wx.core._wx_PyEventBinder import PyEventBinder
 from . import wxEVT_NULL
 
 
