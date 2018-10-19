@@ -5,8 +5,8 @@ from ._wx_AppConsole import AppConsole
 from ._wx_Window import Window
 
 from ._wx_VideoMode import VideoMode
-from ._core._wx_AppAssertMode import AppAssertMode
-from ._core._wx_LayoutDirection import LayoutDirection as wx_LayoutDirection
+from ._wx_AppAssertMode import AppAssertMode
+from ._wx_LayoutDirection import LayoutDirection as wx_LayoutDirection
 
 class PyApp(AppConsole):
     AssertMode: AppAssertMode

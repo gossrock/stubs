@@ -1,7 +1,6 @@
 from typing import overload, Any, Optional
-from . import siplib
 
-class Object(siplib.wrapper):
+class Object:
     #ClassInfo: ? documentation says its here. experementatios don't see it.
     ClassName: str
     RefData: Optional[Any] # unknown type (App() has None)
