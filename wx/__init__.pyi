@@ -7,10 +7,12 @@ from ._wx_Caret import *
 from ._wx_Colour import *
 from ._wx_CommandEvent import *
 from ._wx_Cursor import *
+from ._wx_DropTarget import *
 from ._wx_Event import *
 from ._wx_EventFilter import *
 from ._wx_EventLoopBase import *
 from ._wx_EvtHandler import *
+from ._wx_Font import *
 from ._wx_Frame import *
 from ._wx_GDIObject import *
 from ._wx_LayoutConstraints import *
